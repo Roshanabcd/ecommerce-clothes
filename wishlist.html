@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist - Mantra Fashion Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="index.html">Mantra</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="cart.html">Cart <i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="wishlist.html" class="active">Wishlist <i class="fas fa-heart"></i></a></li>
+                <li><a href="auth.html">Login</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Wishlist Section -->
+    <section class="wishlist-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="wishlist-header text-center mb-5">
+                        <h1 class="display-4 mb-3">My Wishlist</h1>
+                        <p class="lead text-muted">Save items you love in your wishlist. Review them anytime and easily move them to the cart.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Wishlist Items -->
+                <div class="col-lg-8">
+                    <div class="wishlist-items">
+                        <!-- Wishlist Item 1 -->
+                        <div class="wishlist-item card mb-4">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <div class="item-image position-relative">
+                                            <img src="images/product1.jpg" alt="Product 1" class="img-fluid rounded">
+                                            <div class="item-overlay">
+                                                <button class="btn btn-light rounded-circle me-2" title="Quick View"><i class="fas fa-eye"></i></button>
+                                                <button class="btn btn-light rounded-circle me-2" title="Add to Cart"><i class="fas fa-shopping-cart"></i></button>
+                                                <button class="btn btn-light rounded-circle" title="Remove"><i class="fas fa-trash"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="item-details">
+                                            <h3 class="h5 mb-2">Summer Collection T-Shirt</h3>
+                                            <div class="item-price mb-2">
+                                                <span class="price h5 text-danger me-2">$49.99</span>
+                                                <span class="original-price text-muted text-decoration-line-through">$69.99</span>
+                                            </div>
+                                            <div class="item-rating mb-2">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="far fa-star text-warning"></i>
+                                                <span class="ms-2 text-muted">(4.0)</span>
+                                            </div>
+                                            <div class="item-stock">
+                                                <span class="badge bg-success">In Stock</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="item-actions">
+                                            <button class="btn btn-primary w-100 mb-2">Add to Cart</button>
+                                            <button class="btn btn-outline-danger w-100">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Wishlist Item 2 -->
+                        <div class="wishlist-item card mb-4">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <div class="item-image position-relative">
+                                            <img src="images/product2.jpg" alt="Product 2" class="img-fluid rounded">
+                                            <div class="item-overlay">
+                                                <button class="btn btn-light rounded-circle me-2" title="Quick View"><i class="fas fa-eye"></i></button>
+                                                <button class="btn btn-light rounded-circle me-2" title="Add to Cart"><i class="fas fa-shopping-cart"></i></button>
+                                                <button class="btn btn-light rounded-circle" title="Remove"><i class="fas fa-trash"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="item-details">
+                                            <h3 class="h5 mb-2">Classic Denim Jeans</h3>
+                                            <div class="item-price mb-2">
+                                                <span class="price h5 text-danger me-2">$79.99</span>
+                                                <span class="original-price text-muted text-decoration-line-through">$99.99</span>
+                                            </div>
+                                            <div class="item-rating mb-2">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <i class="fas fa-star text-warning"></i>
+                                                <span class="ms-2 text-muted">(5.0)</span>
+                                            </div>
+                                            <div class="item-stock">
+                                                <span class="badge bg-success">In Stock</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="item-actions">
+                                            <button class="btn btn-primary w-100 mb-2">Add to Cart</button>
+                                            <button class="btn btn-outline-danger w-100">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recently Viewed -->
+                <div class="col-lg-4">
+                    <div class="recently-viewed card">
+                        <div class="card-body">
+                            <h3 class="h4 mb-4">Recently Viewed</h3>
+                            <div class="recent-items">
+                                <!-- Recent Item 1 -->
+                                <div class="recent-item d-flex align-items-center mb-3">
+                                    <img src="images/product3.jpg" alt="Recent Product 1" class="rounded" style="width: 80px; height: 80px; object-fit: cover;">
+                                    <div class="recent-item-info flex-grow-1 ms-3">
+                                        <h4 class="h6 mb-1">Casual Sneakers</h4>
+                                        <span class="price text-danger">$89.99</span>
+                                    </div>
+                                    <button class="btn btn-sm btn-outline-primary ms-2"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+
+                                <!-- Recent Item 2 -->
+                                <div class="recent-item d-flex align-items-center">
+                                    <img src="images/product4.jpg" alt="Recent Product 2" class="rounded" style="width: 80px; height: 80px; object-fit: cover;">
+                                    <div class="recent-item-info flex-grow-1 ms-3">
+                                        <h4 class="h6 mb-1">Leather Wallet</h4>
+                                        <span class="price text-danger">$39.99</span>
+                                    </div>
+                                    <button class="btn btn-sm btn-outline-primary ms-2"><i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Empty Wishlist Message -->
+            <div class="empty-wishlist text-center d-none">
+                <i class="fas fa-heart-broken fa-3x mb-3 text-muted"></i>
+                <h3 class="h4 mb-3">Your Wishlist is Empty</h3>
+                <p class="text-muted mb-4">Save items you love in your wishlist. Review them anytime and easily move them to the cart.</p>
+                <a href="products.html" class="btn btn-primary btn-lg">Continue Shopping</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Mantra</h3>
+                <p>Your destination for modern fashion and style. Discover the latest trends and express yourself.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mantra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
