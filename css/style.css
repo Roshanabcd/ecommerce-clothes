@@ -325,6 +325,31 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-section .contact-info {
+    margin-top: 1rem;
+}
+
+.footer-section .contact-info p {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+}
+
+.footer-section .contact-info i {
+    color: #333;
+    width: 20px;
+}
+
+[data-bs-theme="dark"] .footer-section .contact-info p {
+    color: #aaa;
+}
+
+[data-bs-theme="dark"] .footer-section .contact-info i {
+    color: #fff;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .nav-content {
